@@ -1,0 +1,2 @@
+module PdfPagesHelper
+end
