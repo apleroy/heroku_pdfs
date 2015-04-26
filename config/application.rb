@@ -19,5 +19,14 @@ module HerokuPdfs
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+
+    #http://stackoverflow.com/questions/20174766/heroku-rails-deploy-fails-with-error-could-not-connect-to-server-connection-re
+    #config.assets.initialize_on_precompile = false
+
+    config.assets.precompile += ['pdf.css']
+    #https://www.reinteractive.net/posts/116-12-tips-for-the-rails-asset-pipeline
+    #http://stackoverflow.com/questions/5013955/problem-implementing-wicked-pdf-on-heroku?rq=1
+    # USED DSCOUT GEM
   end
 end
