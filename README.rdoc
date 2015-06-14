@@ -1,5 +1,5 @@
 == README
 
-This application serves as an example of how to upload custom fonts to heroku for use in PDF's.  The tutorial uses the gems 'wicked_pdf' and 'wkhtmltopdf-binary'.  For an accompanying tutorial and examples, please visit http://liftweightpushcode.com/posts/custom-pdf-fonts-with-wicked_pdf-and-heroku
+This application serves as an example of how to upload custom fonts to heroku for use in PDF's.  The tutorial uses the gems 'wicked_pdf' and 'wkhtmltopdf-binary'.  For an accompanying tutorial and examples, please visit http://apleroy.com/posts/custom-pdf-fonts-with-wicked_pdf-and-heroku
 
 
